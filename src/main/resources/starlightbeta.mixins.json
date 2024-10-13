@@ -1,12 +1,16 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.glasslauncher.example.mixin",
+  "package": "net.glasslauncher.mods.starlightbeta.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin"
+    "ChunkFuckeryMixin",
+    "ClientChunkFuckery",
+    "NibbleArrayMixin",
+    "WorldMixin"
   ],
   "server": [
+    "server.ServerChunkFuckery"
   ],
   "client": [
   ],
